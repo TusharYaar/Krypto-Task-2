@@ -1,8 +1,48 @@
-import React from 'react'
+import "./styles.css"
 
-const Topbar = () => {
+import {BsArrowDown, BsArrowUp} from "react-icons/bs";
+
+const Topbar = ({ lastPrice, change, low, high }) => {
   return (
-    <div>Topbar</div>
+    <div className='topbar-container'>
+      <div className='topbar-sections'>
+        <div className="topbar-section">
+          <h6 className="heading">
+            Last Price
+          </h6>
+          <p className={`value ${lastPrice > 0 ? "success" : "error"}` }>
+            {lastPrice} USDC
+          </p>
+        </div>
+        <div className="topbar-section">
+          <h6 className="heading">
+            24h Change
+          </h6>
+          <p className={`value ${change >= 0 ? "success" : "error"}` }>
+            {change >=0 ? <BsArrowUp />: <BsArrowDown />}
+            {change} %
+          </p>
+        </div>
+        <div className="topbar-section">
+          <h6 className="heading">
+            24h Low
+          </h6>
+          <p className="value">
+            {low}
+          </p>
+        </div>
+        <div className="topbar-section">
+          <h6 className="heading">
+            24h High
+          </h6>
+          <p className="value">
+            {high}
+          </p>
+        </div>
+      </div>
+      <div className='topbar-other-section'>
+      </div>
+    </div>
   )
 }
 

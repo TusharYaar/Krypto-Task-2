@@ -14,8 +14,6 @@ const Dashboard = () => {
   const { sendMessage, lastMessage, readyState } = useWebSocket(process.env.REACT_APP_SOCKET_URL);
   useEffect(() => {
     if (lastMessage !== null) {
-        // const parsed = JSON.parse(lastMessage.data);
-        // console.log(parsed);
       setFinanceData((lastMessage.data));
     }
   }, [lastMessage]);
@@ -35,7 +33,7 @@ const Dashboard = () => {
             <Sidebar>
             </Sidebar>
             <div className="body-container">
-                <Topbar />
+                <Topbar lastPrice={30000} change={0.00} low={23935.32} high={23935.32}/>
             </div>
         </div>
     )

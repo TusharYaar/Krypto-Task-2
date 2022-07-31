@@ -1,0 +1,45 @@
+.topbar-container {
+    width: 100%;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    overflow-y:hidden;
+    overflow-x: auto;
+    border-bottom: 3px solid var(--secondary);
+}
+
+.topbar-sections {
+    display: flex;
+    flex-direction: row;
+}
+.topbar-section {
+    padding: 20px;
+    width: 200px;
+    border-right: 3px solid var(--secondary);
+}
+
+.topbar-section .heading {
+    color: var(--secondary);
+}
+.topbar-section .value {
+    font-size: 16px;
+    color: var(--white);
+}
+.topbar-section .value.success {
+    font-size: 20px;
+    color: var(--success);
+}
+
+.topbar-section .value.error {
+    font-size: 20px;
+    color: var(--error);
+}
+
+
+.topbar-other-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-grow: 1;
+}
