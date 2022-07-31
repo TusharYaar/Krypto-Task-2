@@ -1,0 +1,10 @@
+.perform-sale-container {
+    background-color: var(--background);
+    height: 100%;
+    padding: 20px;
+}
+.perform-sale-container .btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

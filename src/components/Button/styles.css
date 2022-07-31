@@ -1,0 +1,35 @@
+.button-container {
+    padding: 10px;
+    padding-left: 50px;
+    text-transform: uppercase;
+    padding-right: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    color: var(--white);
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-weight: 600;
+
+}
+.button-container.active, .button-container:hover {
+    background-color: var(--black);
+}
+
+.button-container.primary {
+    color:var(--primary);
+}
+.button-container.secondary {
+    color:var(--secondary);
+
+}
+.button-container.success {
+    color:var(--success);
+
+}
+.button-container.error {
+    color:var(--error);
+
+}

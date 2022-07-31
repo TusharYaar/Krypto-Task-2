@@ -7,8 +7,23 @@ task: `fontend`
 
 ### Features
 1. Global Sidebar
+2. Sidebar can expand
+3. Icons on sidebar change the page
+4. Topbar data turn red when value in negative
 2. React router 
-3. Dynamic Topbar on Dashboard
+4. Stories for components
+1. Custom Scrollbar
+
+
+### Further Improvements
+1. Using `next.js` for server side rendering
+2. Using `typescript` from type-safety
+3. Using `redux` for better store management
+4. Make application mobile friendly
+
+### Things to do differently
+1. Complete the task
+2. Make application 
 
 ### How to Run
 1. Download node.js and npm

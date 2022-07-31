@@ -15,5 +15,11 @@
   --black: #0f0f0f;
   --body: #252731;
   --white: #efefef;
-
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--black) var(--background);
+}
+::-webkit-scrollbar {
+  width: 3px;
 }

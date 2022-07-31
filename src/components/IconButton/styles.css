@@ -1,6 +1,7 @@
 .icon-button {
     padding: 10px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 .icon-button.active, .icon-button:hover {
