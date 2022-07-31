@@ -8,3 +8,12 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.perform-sale-card {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+.card-data-success {
+    color: var(--success);
+}
