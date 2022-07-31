@@ -1,0 +1,9 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.body-container {
+    padding-left: 90px;
+}

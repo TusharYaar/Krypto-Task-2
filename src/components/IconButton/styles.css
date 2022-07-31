@@ -1,0 +1,8 @@
+.icon-button {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.icon-button.active, .icon-button:hover {
+    background-color: var(--black);
+}
