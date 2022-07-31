@@ -3,7 +3,6 @@ import {useState, useEffect, useCallback, useMemo} from "react";
 
 import useWebSocket, { ReadyState } from 'react-use-websocket';
 
-import Sidebar from "../../components/Sidebar";
 import Topbar from "../../components/Topbar";
 
 
@@ -30,8 +29,6 @@ const Dashboard = () => {
 
     return (
         <div className="dashboard-container">
-            <Sidebar>
-            </Sidebar>
             <div className="body-container">
                 <Topbar lastPrice={30000} change={0.00} low={23935.32} high={23935.32}/>
             </div>

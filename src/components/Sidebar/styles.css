@@ -46,7 +46,7 @@
     font-size: 13px;
 }
 
-.sidebar-option:hover {
+.sidebar-option.active ,.sidebar-option:hover {
     background-color: var(--black);
 
 }
