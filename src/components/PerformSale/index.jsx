@@ -19,8 +19,8 @@ const PerformSale = () => {
         </Button>
         </div>
         
-        <Card title="Amount in USDC" className="perform-sale-card">0</Card>
-        <Card title="Amount in BTC" className="perform-sale-card"> 0</Card>
+        <Card title="Amount in USDC" className="perform-sale-card" suffix={<span className="usdc-purple">USDC</span>}>0</Card>
+        <Card title="Amount in BTC" className="perform-sale-card" suffix={<span className="btc-green">BTC</span>} > 0</Card>
         <Button  variant={section === "buy" ? "success" : "error"} >{section === "buy" ? "Buy BTC" : "sell BTC"}</Button>
         <Card title="Invested Value"><p className="card-data-success">2,8654.45</p></Card>
         <Card title="Current Value"><p className="card-data-success">2,8654.45</p></Card>

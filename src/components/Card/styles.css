@@ -1,10 +1,19 @@
 .card-container {
     padding: 10px;
     background-color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: var(--white);
 }
 .card-container .title {
     color: var(--secondary);
     font-weight: bold;
     font-size: 12px;
+}
+.card-container .card-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }

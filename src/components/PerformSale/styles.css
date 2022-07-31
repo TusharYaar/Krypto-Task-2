@@ -17,3 +17,13 @@
 .card-data-success {
     color: var(--success);
 }
+
+.usdc-purple {
+    color: purple;
+    font-weight: bold;
+}
+.btc-green {
+    color: green;
+    font-weight: bold;
+
+}

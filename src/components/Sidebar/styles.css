@@ -11,6 +11,7 @@
     justify-content: flex-start;
     align-items: center;
     padding: 10px;
+    z-index: 999;
 }
 .sidebar-container.expanded {
     width: 200px;
